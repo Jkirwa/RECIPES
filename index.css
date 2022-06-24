@@ -1,56 +1,79 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  
+  transition: all 0.3s linear;
+  outline: none;
+}
+*::selection{
+  background-color: yellowgreen;
+  color: #fff;
+}
 body{
-    background-color: beige;
+  font-family: 'poppins', sans-serif;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
+  url(./images/coc1.jpg);
+  background-position: center;
+  background-size: cover;
+ 
+}
+nav{
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+nav .logo{
+  font-size: 3rem;
+  cursor: pointer;
+}
+nav .logo span{
+  color: yellowgreen;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgb(191, 218, 160);
+}
+#btn{
+  padding: 0.5rem 1.5rem;
+  background-color: black;
+  border: 0.3rem solid white;
+  color: rgb(160, 187, 106);
+  margin-top: 1.8rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+#btn:hover{
+  background-color: yellowgreen;
+  color: #fff;
+}
+h2{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: rgb(25, 36, 12);
+}
+footer{
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  background-color: #333;
+  font-size: 1.8rem;
 }
 
-.container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    opacity: 1;
-    display: block;
-   width: 150%;
-   height: 80%;
-   
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: gray;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 100;
-    font-variant: normal
-    ;
-    .s{}
-}
-.p1{
-    text-align: left;
-    padding-left: 0%;
-}
