@@ -10,13 +10,13 @@
 
 As a user of the application,you will be able to :
 
-1. Display the name of the meal and the steps taken to prepare.
+1.To see the name of the meal and the steps taken to prepare.
 
  ###  Requirements
 
-  User must atleast have access to a computer
+ User must atleast have access to a computer
 
- User has to be connected to internet
+ User has to be connected to the internet
 
  ### Installation Process
 
