@@ -10,23 +10,40 @@ const options = {
 		'X-RapidAPI-Host': 'low-carb-recipes.p.rapidapi.com'
 	}
 };
-
-let diet=async()=>{
-
-let response =await fetch('https://low-carb-recipes.p.rapidapi.com/random', options);
+let dataCount= document.getElementById("food")
+let result;
+fetch('https://low-carb-recipes.p.rapidapi.com/random', options)
+	.then(response => response.json())
+	.then((response) => {console.log(response)
+        result=response
+        let row= `<ul><li> ${response.name}+' '+${response.name}+' '+${response.cookTime}+' '+${''}</li></ul>`;
+        dataCount.append('Name:'+result.name+'.'+''+''
+        
+        +'Steps:'+result.steps);
+        dataCount.innerHtml+=row
+    }
     
-    let recipes=await response.json()
-    console.log(recipes);
-    let dataRendered= document.getElementById("response")
+    )
+	.catch(err => console.error(err));
+ let populateData=(result)=>{
+    //let column= `<ul><li> ${response.id}+' '+${response.name}+' '+${response.cookTime}+' '+${''}</li></ul>`;
+    dataCount.innerHtml+=column
+  
 
-    recipes.map((recipe)=>{
-        let column= <li>name: ${recipe.name}co</li>
-    })
+ }
+ populateData(result)
+// let diet=async()=>{
 
+// let response =await fetch('https://low-carb-recipes.p.rapidapi.com/random', options);
+    
+//     let recipes=await response.json()
+//     console.log(recipes);
+//     let dataCount= document.getElementById("response")
 
+//     recipes.map((recipe)=>{
+//         let column= `<li>name: ${recipe.id},${recipe.name}, ${recipe.cookTime}, ${recipe.nutrients}</li>`;
+//         dataCount.innerHtml+=column 
+//     });
+//     diet()
 
-
-
-
-
-}
+// }
