@@ -3,12 +3,19 @@ function clickMe(){
     alert("Eat clean and healthy");
 }
 function callBack(){
-    document.getElementById("text").textContent = "This is really cool!"}
+    document.getElementById("text").textContent= "Look no further we have your next keto recipe. "
+}           
+   
     
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded ');
     console.log(callBack())
 });
+document.getElementById('message').onclick = function changeContent() {
+
+    document.getElementById('message').textContent = "Enjoy your meal!";
+    document.getElementById('message').style = "color: green";
+}
 
 // const options = {
 // 	method: 'GET',
