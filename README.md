@@ -15,7 +15,7 @@ As a user of the application,you will be able to :
 
   User must atleast have access to a computer
 
- User has to be coonected to internet
+ User has to be connected to internet
 
  ### Installation Process
 
