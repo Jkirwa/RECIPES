@@ -38,7 +38,7 @@ nav .logo{
 nav .logo span{
   color: yellowgreen;
 }
-/* .content{
+.content{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,9 +62,9 @@ nav .logo span{
 }
 #btn:hover{
   background-color: yellowgreen;
-  color: #fff;
+  color:#fff;
 }
-h2{
+/* h2{
   font-size: 1.3rem;
   text-transform: uppercase;
   color: rgb(25, 36, 12);
@@ -76,6 +76,6 @@ footer{
   text-align: center;
   background-color: #333;
   font-size: 1.8rem;
-}
+} */
 
- */
+
