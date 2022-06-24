@@ -1,6 +1,6 @@
 let clicking=document.getElementById("btn").addEventListener("click",clickMe);
 function clickMe(){
-    alert("Eat healthy");
+    alert("Eat clean and healthy");
 }
 
 const options = {
@@ -11,7 +11,7 @@ const options = {
 	}
 };
 let dataCount= document.getElementById("food")
-//let result;
+
 fetch('https://low-carb-recipes.p.rapidapi.com/random', options)
 	.then(response => response.json())
 	.then((response) => {console.log(response)
