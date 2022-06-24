@@ -1,4 +1,5 @@
 ## NutriHub
+### By Daisy Jepleting
 
 
 <p>This project is a web application for low carb or keto diet recipes where people who are on keto are able to access the different recipes</p>

@@ -19,7 +19,5 @@ fetch('https://low-carb-recipes.p.rapidapi.com/random', options)
         let row= ` ${response.name}+' '+${response.name}+' '+${response.cookTime}+' '`;
         dataCount.append('Name:'+result.name+'.'+'Steps: '+result.steps);
         
-    }
-    
-    )
+    })
 
