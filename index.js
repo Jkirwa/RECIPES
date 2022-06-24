@@ -11,9 +11,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded ');
     console.log(callBack())
 });
+
 document.getElementById('message').onclick = function changeContent() {
 
-    document.getElementById('message').textContent = "Enjoy your meal!";
+    document.getElementById('message').textContent = "Enjoy your meal!!!";
     document.getElementById('message').style = "color: green";
 }
 
