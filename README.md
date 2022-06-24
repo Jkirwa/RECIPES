@@ -20,7 +20,7 @@ As a user of the application,you will be able to :
  ### Installation Process
 
  
-* Clone to the repo : git clone hhttps://github.com/Jkirwa/RECIPES.git
+* Clone to the repo : git clone https://github.com/Jkirwa/RECIPES.git
 
 
 ### Technology  Used
