@@ -22,6 +22,11 @@ As a user of the application,you will be able to :
 
  
 * Clone to the repo : git clone https://github.com/Jkirwa/RECIPES.git
+* Unzip the downloaded files in a folder of choice.
+* Open the index file from the zipped file with any browser.
+
+### Live link
+ Link to live site on GitHub Pages -https://jkirwa.github.io/RECIPES/
 
 
 ### Technology  Used
